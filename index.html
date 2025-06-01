@@ -172,25 +172,25 @@
       <h2 class="title is-3" style="margin-top: 10px;">Qualitative Results</h2>
       <div id="carouselVideoReconstruction" class="carousel" data-slides-to-show=1 data-slides-to-scroll=1 data_auto_play="true">
         <div class="item">
-          <img src="qual/qual1.webp">
+          <img src="qual/level1.webp">
           <div class="caption" style="font-size: 2em; margin-top: 14px; color: #222; font-weight: bold;">
             SA-Text Level 1
           </div>
         </div>
         <div class="item">
-          <img src="qual/qual2.webp">
+          <img src="qual/level2.webp">
           <div class="caption" style="font-size: 2em; margin-top: 14px; color: #222; font-weight: bold;">
             SA-Text Level 2
           </div>
         </div>
         <div class="item">
-          <img src="qual/qual3.webp">
+          <img src="qual/level3.webp">
           <div class="caption" style="font-size: 2em; margin-top: 14px; color: #222; font-weight: bold;">
             SA-Text Level 3
           </div>
         </div>
         <div class="item">
-          <img src="qual/qual4.webp">
+          <img src="qual/level4.webp">
           <div class="caption" style="font-size: 2em; margin-top: 14px; color: #222; font-weight: bold;">
             Real-Text
           </div>
@@ -207,21 +207,14 @@
 
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered"><br>Quantitative Results</h2>
-        <img src="img/main_quan.png" width="100%">
+        <h2 class="title is-3 has-text-centered"><br>Dataset</h2>
+        <img src="img/dataset_pipeline.jpg" width="100%">
 
         <div class="content has-text-justified">
-            <strong>Quantitative comparison of human preference scores across diverse datasets.</strong> Starting from a refined noise (Ours) consistently yields higher human preference scores than starting with Gaussian noise, with scores comparable to the cases using guidance.
+          <strong>SA-Text curation pipeline.</strong> First, text-spotting module detects text regions in the full image, then re-applies detection to image patches to recover missed instances. Text is transcribed and verified by two VLMs, and only consistently recognized patches are annotated.
         </div>
 
-        <img  src="img/fidis.png" width="45%" > &nbsp;&nbsp;&nbsp;&nbsp;
-        <img  src="img/userstudy_suppl.png" width="50%">
-
-        <div class="content has-text-justified">
-          <ul>
-            <li><strong>(Left) Comparison of FID/IS and inference time.</strong> Ours (second row) demonstrates a lower inference time while achieving comparable FID/IS scores in comparison to the using guidance.</li>
-            <li><strong>(Right) User study results.</strong> Starting from refined noise rather than random gaussian noise yields superior quality outcomes.</li>
-          </ul>
+        <img src="img/dataset_example.jpg" width="100%">
       </div>
 
       </div>
