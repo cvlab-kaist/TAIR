@@ -122,7 +122,7 @@
       <img src="img/teaser.jpg" class="center">
       <h2 class="subtitle" style="text-align: justify;">
         <br>
-        <strong style="display: block; text-align: center; color: #880000;">
+        <strong style="display: block; text-align: center; color: #880000; margin-top: -10px;">
           TL;DR
         </strong>
         <br>
@@ -148,7 +148,28 @@
 </section>
 
 
-<section class="section">
+<section class="section" style="padding-top: 0;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered"><br>Dataset</h2>
+        <img src="img/dataset_pipeline.jpg" width="100%">
+
+        <div class="content has-text-justified">
+          <strong>SA-Text curation pipeline.</strong> First, text-spotting module detects text regions in the full image, then re-applies detection to image patches to recover missed instances. Text is transcribed and verified by two VLMs, and only consistently recognized patches are annotated.
+        </div>
+
+        <img src="img/dataset_example.jpg" width="100%">
+
+        <div class="content has-text-centered">
+          <strong>Example images from SA-Text</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-light">
   <div class="container is-max-desktop">
 
     <div class="columns is-centered has-text-centered">
@@ -166,7 +187,7 @@
   </div>
 </section>
 
-<section class="hero is-light">
+<section class="section">
   <div class="hero-body" style="padding: 0;">
     <div class="container is-max-desktop has-text-centered">
       <h2 class="title is-3" style="margin-top: 10px;">Qualitative Results</h2>
@@ -202,26 +223,6 @@
 
 
 
-<section class="section" style="padding-top: 0;">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered"><br>Dataset</h2>
-        <img src="img/dataset_pipeline.jpg" width="100%">
-
-        <div class="content has-text-justified">
-          <strong>SA-Text curation pipeline.</strong> First, text-spotting module detects text regions in the full image, then re-applies detection to image patches to recover missed instances. Text is transcribed and verified by two VLMs, and only consistently recognized patches are annotated.
-        </div>
-
-        <img src="img/dataset_example.jpg" width="100%">
-
-        <div class="content has-text-centered">
-          <strong>Example images from SA-Text</strong>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
