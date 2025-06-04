@@ -140,7 +140,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified" style="font-size: 18px;">
-          Image restoration aims to recover degraded images. However, existing diffusion-based restoration methods, despite great success in natural image restoration, often struggle to faithfully reconstruct textual regions in degraded images, frequently generating plausible but incorrect textures caused by a text–image hallucination. In this paper, we introduce <strong>Text-Aware Image Restoration (TAIR)</strong>, a novel restoration task that requires the simultaneous recovery of scene appearance and textual fidelity. To tackle this task, we present <strong>SA-Text</strong>, a large-scale benchmark of 100K high-quality scene images densely annotated with diverse and complex text instances. Furthermore, we propose a <strong>multi-task diffusion framework</strong> that integrates internal features in diffusion models into a text-spotting module, which are jointly trained to mutually boost the performance. This allows for the extraction of rich text representations, which are utilized as prompts in subsequent denoising steps. Extensive experiments demonstrate that our approach consistently outperforms state-of-the-art restoration methods, achieving significant gains in text recognition accuracy.
+          Image restoration aims to recover degraded images. However, existing diffusion-based restoration methods, despite great success in natural image restoration, often struggle to faithfully reconstruct textual regions in degraded images, frequently generating plausible but incorrect textures caused by a text–image hallucination. In this paper, we introduce <strong>Text-Aware Image Restoration (TAIR)</strong>, a novel restoration task that requires the simultaneous recovery of scene appearance and textual fidelity. To tackle this task, we present <strong>SA-Text</strong>, a large-scale benchmark of 100K high-quality scene images densely annotated with diverse and complex text instances. Furthermore, we propose a <strong>multi-task diffusion framework</strong> that integrates internal features from diffusion models into a text-spotting module, which are jointly trained to mutually boost the performance. This allows for the extraction of rich text representations, which are utilized as prompts in subsequent denoising steps. Extensive experiments demonstrate that our approach consistently outperforms state-of-the-art restoration methods, achieving significant gains in text recognition accuracy.
         </div>
       </div>
     </div>
@@ -222,7 +222,24 @@
 </section>
 
 
+<section class="hero is-light" style="padding-top: 0;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered"><br>SA-Text Dataset</h2>
+        <img src="img/quan.png" width="80%">
 
+        <div class="content has-text-justified">
+          <strong>Quantitative results of text spotting on SA-Text.</strong> Each block shows the performance of
+          various image restoration methods under different degradation strengths, evaluated using two text
+          spotting models. 'None' refers to recognition without a lexicon, and 'Full' denotes recognition with a
+          full lexicon. Best results are in <strong>bold</strong> and second-best are <span style='text-decoration:underline;'>underlineed</span>.
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
