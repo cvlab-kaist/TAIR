@@ -6,8 +6,8 @@
     <a href="https://github.com/jinlovespho">Jin&nbsp;Hyeon&nbsp;Kim<sup>∗2</sup></a> ·
     <a href="">Paul&nbsp;Hyunbin&nbsp;Cho<sup>1</sup></a> ·
     <a href="https://github.com/babywhale03">Jaeeun&nbsp;Lee<sup>3</sup></a> ·
-    <a href="">Jihye&nbsp;Park<sup></sup>4</a> ·
-    <a href="">Minkyu&nbsp;Park<sup></sup>4</a> ·
+    <a href="">Jihye&nbsp;Park<sup>4</sup></a> ·
+    <a href="">Minkyu&nbsp;Park<sup>4</sup></a> ·
     <a href="">Sangpil&nbsp;Kim<sup>†2</sup></a> ·
     <a href="">Hyunhee&nbsp;Park<sup>†4</sup></a> ·
     <a href="https://cvlab.kaist.ac.kr/">Seungryong&nbsp;Kim<sup>†1</sup></a>
