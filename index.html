@@ -151,7 +151,7 @@
           TL;DR
         </strong>
         <br>
-        We introduce <strong>Text-Aware Image Restoration (TAIR)</strong>, a new task focused on restoring both visual quality and text fidelity in degraded images. To support this, we present <strong>SA-Text</strong>, a large-scale dataset with detailed text annotations, and propose a multi-task diffusion framework that leverages text-spotting features to enhance restoration.
+        We introduce <strong>Text-Aware Image Restoration (TAIR)</strong>, a new task focused on restoring both visual quality and text fidelity in degraded images. To support this, we present <strong>SA-Text</strong>, a large-scale dataset with detailed text annotations, and propose a multi-task diffusion framework, called <strong>TeReDiff</strong>, that leverages text-spotting features to enhance restoration.
       </h2>
     </div>
   </div>
@@ -165,7 +165,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified" style="font-size: 18px;">
-          Image restoration aims to recover degraded images. However, existing diffusion-based restoration methods, despite great success in natural image restoration, often struggle to faithfully reconstruct textual regions in degraded images, frequently generating plausible but incorrect textures caused by a text–image hallucination. In this paper, we introduce <strong>Text-Aware Image Restoration (TAIR)</strong>, a novel restoration task that requires the simultaneous recovery of scene appearance and textual fidelity. To tackle this task, we present <strong>SA-Text</strong>, a large-scale benchmark of 100K high-quality scene images densely annotated with diverse and complex text instances. Furthermore, we propose a <strong>multi-task diffusion framework</strong> that integrates internal features from diffusion models into a text-spotting module, which are jointly trained to mutually boost the performance. This allows for the extraction of rich text representations, which are utilized as prompts in subsequent denoising steps. Extensive experiments demonstrate that our approach consistently outperforms state-of-the-art restoration methods, achieving significant gains in text recognition accuracy.
+          Image restoration aims to recover degraded images. However, existing diffusion-based restoration methods, despite great success in natural image restoration, often struggle to faithfully reconstruct textual regions in degraded images, frequently generating plausible but incorrect textures caused by a text–image hallucination. In this paper, we introduce <strong>Text-Aware Image Restoration (TAIR)</strong>, a novel restoration task that requires the simultaneous recovery of scene appearance and textual fidelity. To tackle this task, we present <strong>SA-Text</strong>, a large-scale benchmark of 100K high-quality scene images densely annotated with diverse and complex text instances. Furthermore, we propose a multi-task diffusion framework, called <strong>TeReDiff</strong>, that integrates internal features from diffusion models into a text-spotting module, which are jointly trained to mutually boost the performance. This allows for the extraction of rich text representations, which are utilized as prompts in subsequent denoising steps. Extensive experiments demonstrate that our approach consistently outperforms state-of-the-art restoration methods, achieving significant gains in text recognition accuracy.
         </div>
       </div>
     </div>
