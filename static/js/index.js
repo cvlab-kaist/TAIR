@@ -40,46 +40,6 @@ $(document).ready(function() {
 		// Initialize all div with carousel class
     var carousels = bulmaCarousel.attach('.carousel', options);
 
-    // Add dots navigation for carousels
-    function initializeCarouselDots(carouselId) {
-        const carousel = document.getElementById(carouselId);
-        if (!carousel) return;
-
-        const items = carousel.querySelectorAll('.item');
-        const dotsContainer = document.createElement('div');
-        dotsContainer.className = 'carousel-dots';
-        
-        // Create dots
-        items.forEach((_, index) => {
-            const dot = document.createElement('span');
-            dot.className = 'dot' + (index === 0 ? ' active' : '');
-            dot.onclick = () => {
-                const instance = carousel.bulmaCarousel;
-                if (instance) {
-                    instance.show(index);
-                }
-            };
-            dotsContainer.appendChild(dot);
-        });
-
-        // Insert dots after carousel
-        carousel.parentNode.insertBefore(dotsContainer, carousel.nextSibling);
-
-        // Update dots when carousel changes
-        if (carousel.bulmaCarousel) {
-            carousel.bulmaCarousel.on('after:show', (state) => {
-                const dots = dotsContainer.querySelectorAll('.dot');
-                dots.forEach((dot, i) => {
-                    dot.classList.toggle('active', i === state.index);
-                });
-            });
-        }
-    }
-
-    // Initialize dots for both carousels
-    initializeCarouselDots('carouselGifSamples');
-    initializeCarouselDots('carouselVideoReconstruction');
-
     // // Loop on each carousel initialized
     // for(var i = 0; i < carousels.length; i++) {
     // 	// Add listener to  event
