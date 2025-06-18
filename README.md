@@ -26,7 +26,7 @@
   </p>
 
   <h3 align="center">
-    <a href="#">Paper (Coming soon)</a> | 
+    <a href="https://arxiv.org/abs/2506.09993">Paper</a> | 
     <a href="https://cvlab-kaist.github.io/TAIR">Project Page</a>
   </h3>
 </p>
