@@ -573,10 +573,38 @@ model-viewer {
 
 .carousel .item {
   margin: 0% 8% 8% 8%;
-  /* min-width: 31.3%; */
 }
 
 .carousel .item video{
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
+}
+
+/* Carousel Dots Navigation */
+.carousel-dots {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dot:hover {
+  background-color: #999;
+  transform: scale(1.1);
+}
+
+.dot.active {
+  background-color: #4a7aa5;
+  transform: scale(1.2);
 }
