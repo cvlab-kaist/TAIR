@@ -22,16 +22,19 @@ Text-Aware Image Restoration with Diffusion Models</h1>
 <a href="https://arxiv.org/abs/2506.09993"><img src="https://img.shields.io/badge/arXiv-2506.09993-B31B1B"></a>
         <a href="https://cvlab-kaist.github.io/TAIR/"><img src="https://img.shields.io/badge/Project%20Page-online-1E90FF"></a>
         <a href="https://huggingface.co/datasets/Min-Jaewon/SA-Text"><img src="https://img.shields.io/badge/HuggingFace-SA--Text-yellow?logo=huggingface&logoColor=yellow"></a>
+        <a href="https://huggingface.co/datasets/Min-Jaewon/SA-Text-test"><img src="https://img.shields.io/badge/HuggingFace-SA--Text--test-yellow?logo=huggingface&logoColor=yellow"></a>
         <a href="https://huggingface.co/datasets/Min-Jaewon/Real-Text"><img src="https://img.shields.io/badge/HuggingFace-Real--Text-yellow?logo=huggingface&logoColor=yellow"></a>
 </div>
 
 
 ## 📢 News 
+- 🤗 **2026.02.23** - We additionally release **SA-Text-test** split into 3 degradation levels! 
+- 🎉 **2026.01.23** - Our paper has been accepted to **ICLR 2026**!
 - 🌈 **2025.06.24** - TAIR Demo code released!
 - ❤️ **2025.06.23** - Training code released!
-- 🤗 **2025.06.19** — **SA-Text** and **Real-Text** datasets are released along with the [dataset pipeline](https://github.com/paulcho98/text_restoration_dataset/tree/main)!
-- 📄 **2025.06.12** — Arxiv paper is released! 
-- 🚀 **2025.06.01** — Official launch of the repository and project page!
+- 🤗 **2025.06.19** - **SA-Text** and **Real-Text** datasets are released along with the [dataset pipeline](https://github.com/paulcho98/text_restoration_dataset/tree/main)!
+- 📄 **2025.06.12** - Arxiv paper is released! 
+- 🚀 **2025.06.01** - Official launch of the repository and project page!
 ---
 
 
@@ -46,6 +49,7 @@ Text-Aware Image Restoration with Diffusion Models</h1>
 | Split             | Hugging Face 🤗 | Google Drive 📁 |
 |------------------|:---------------:|:---------------:|
 | **SA-Text**       | <div align="center">[Link](https://huggingface.co/datasets/Min-Jaewon/SA-Text)</div> | <div align="center">[Link](https://drive.google.com/file/d/1wnGBwrRNJ-hegPtvt8s4y-iXgdED16L4/view?usp=sharing)</div> |
+| **SA-Text-test**       | <div align="center">[Link](https://huggingface.co/datasets/Min-Jaewon/SA-Text-test)</div> | - |
 | **Real-Text**     | <div align="center">[Link](https://huggingface.co/datasets/Min-Jaewon/Real-Text)</div> | <div align="center">[Link](https://drive.google.com/file/d/1sIjeFe0Rq6IvYEC-pkz6aQ4ubuIge4xi/view?usp=sharing)</div> |
 
 
