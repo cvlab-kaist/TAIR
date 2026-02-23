@@ -2,6 +2,8 @@
 <h1>
 Text-Aware Image Restoration with Diffusion Models</h1>
 
+<h3>🌟 <b>ICLR 2026</b> 🌟</h3>
+
 [**Jaewon Min**](https://github.com/Min-Jaewon/)<sup>1*</sup>, 
 [**Jin Hyeon Kim**](https://github.com/jinlovespho)<sup>2*</sup>, 
 **Paul Hyunbin Cho**<sup>1</sup>, 
